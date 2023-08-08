@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T06:07:19.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="RlJO9CM8W_2-Um-QfMSz" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T06:54:12.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="K41GaniDzt4-iD4qyvV5" version="21.6.6" type="github">
   <diagram name="Page-1" id="g7A5dQffHWURVIQItSet">
-    <mxGraphModel>
+    <mxGraphModel dx="995" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s7hbr12SviEL9W5G6fLX-1" value="1. Customer Comes with the Requirements" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-2" value="Customer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.user;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-350" width="47.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-9" value="&lt;br&gt;2. Business Analyst or product owner translates the requirement into backlog.&lt;br&gt;3. Switch Tech Engineering team starts sprint and capacity planning." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="258" y="-340" width="335" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-11" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Boards.svg;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-340" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-12" value="Azure Boards- for Work Planning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="258" y="-370" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-13" value="4. Developer picks backlog items/bugs from the azure boards and starts development.&lt;br&gt;5. Developer finishes off the code, send the code for pull request and collaborate with code reviewers, upon completion of the PR and code review, developer commits the code to the repo." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="-350" width="280" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-15" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Repos.svg;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-340" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-16" value="Azure Repos- For Source Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="695" y="-380" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-17" value="" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="895" y="-160" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-18" value="3.1 Test Engineering team starts test planning.&lt;br&gt;8. Once build is deployed, testers start testing and logs defects if any in azure boards.&lt;br&gt;9.If testers are satisfied with the build, then build gets promoted to upper environments." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-150" width="410" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-19" value="Test Plans - For test planning" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-180" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-20" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Test_Plans.svg;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-120" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-21" value="10. Business Users starts testing in UAT environment.&lt;br&gt;11. Any defects, observations get logged in boards.&lt;br&gt;12. Upon user satisfaction build promoted for production environment." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-150" width="190" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-22" value="Business Users" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-23" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.users;fillColor=#D2D3D3;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-150" width="66" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="430" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s7hbr12SviEL9W5G6fLX-25" value="Deployment Environment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
